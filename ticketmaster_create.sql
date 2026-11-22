@@ -15,9 +15,9 @@ CREATE TABLE Event (
 CREATE TABLE Seat (
     seat_id int  NOT NULL,
     venue_id int  NOT NULL,
-    seat_number int  NOT NULL,
-    row_number int  NOT NULL,
-    section_number char(1)  NOT NULL,
+    seat_number int,
+    row_number int,
+    section char(1)  NOT NULL,
     CONSTRAINT Seat_pk PRIMARY KEY (seat_id)
 );
 
