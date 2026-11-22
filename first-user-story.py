@@ -1,7 +1,12 @@
 from common import *
 
 us = '''
-    First user story
+*  First user story:
+
+   As a: Customer
+ I want: To see ticket prices for available seating options
+So that: I can find appealing tickets within my budget
+
 '''
 
 print(us)
